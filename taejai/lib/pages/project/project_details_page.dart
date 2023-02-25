@@ -28,7 +28,6 @@ class ProjectDetailsPage extends StatelessWidget {
 
   const ProjectDetailsPage({Key? key, required this.project}) : super(key: key);
 
-
   @override
   Widget build(BuildContext context) {
     var formatter = NumberFormat('#,###,000');
